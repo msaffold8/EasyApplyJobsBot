@@ -10,8 +10,8 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 
 class Linkedin:
     def __init__(self):
-            utils.prYellow("🤖 Thanks for using Easy Apply Jobs bot, for more information you can visit our site - www.automated-bots.com")
-            utils.prYellow("🌐 Bot will run in Chrome browser and log in Linkedin for you.")
+            utils.prYellow("🤖 Success! LinkedIn Easy Apply Jobs bot is activating")
+            utils.prYellow("🌐 Bot will now run in Chrome browser and log in Linkedin for you.")
             self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),options=utils.chromeBrowserOptions())
             self.cookies_path = f"{os.path.join(os.getcwd(),'cookies')}/{self.getHash(config.email)}.pkl"
             self.driver.get('https://www.linkedin.com')

@@ -4,8 +4,8 @@
 browser = ["Chrome"]
 # Enter your Linkedin password and username below. Do not commit this file after entering these credentials.
 # Linkedin credentials
-email = "YourLinkedin@UserEmail.com"
-password = "YourLinkedinPassword"
+email = "melaquansaffold@yahoo.com"
+password = "XXXXXXX"
 
 #PRO FEATURE - Optional! run browser in headless mode, no browser screen will be shown it will work in background.
 headless = False
@@ -20,17 +20,18 @@ chromeProfilePath = r""
 # continent locations:["Europe", "Asia", "Australia", "NorthAmerica", "SouthAmerica", "Africa", "Australia"]
 location = ["NorthAmerica"]
 # keywords related with your job search
-keywords = ["frontend", "react", "typescript","javascript", "vue", "python", "programming", "blockchain"]
+keywords = [ "business analyst","business process analyst","software engineer apprentice", "product manager","functional analyst", "software engineer apprentice","business process analyst","product manager","system analyst", "product owner", "o365", "system admin", "application support", "business process", "Application support specialist","microsoft","Application support", "Enterprise application",  "o365", "enterprise systems", "enterprise support", "microsoft specialist", "business process analyst", "application developer", "business process analyst"]
 #job experience Level - ex:  ["Internship", "Entry level" , "Associate" , "Mid-Senior level" , "Director" , "Executive"]
-experienceLevels = [ "Entry level" ]
+experienceLevels = [ "Entry level", "Associate" ]
 #job posted date - ex: ["Any Time", "Past Month" , "Past Week" , "Past 24 hours"] - select only one
-datePosted = ["Past Week"]
+datePosted = ["Past Month"]
 #job type - ex:  ["Full-time", "Part-time" , "Contract" , "Temporary", "Volunteer", "Intership", "Other"]
 jobType = ["Full-time", "Part-time" , "Contract"]
 #remote  - ex: ["On-site" , "Remote" , "Hybrid"]
-remote = ["On-site" , "Remote" , "Hybrid"]
+remote = ["Remote" ]
+# remote = ["On-site" , "Remote" , "Hybrid"]
 #salary - ex:["$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+" ] - select only one
-salary = [ "$80,000+"]
+salary = [ "$60,000+"]
 #sort - ex:["Recent"] or ["Relevent"] - select only one
 sort = ["Recent"]
 #Blacklist companies you dont want to apply - ex: ["Apple","Google"]
